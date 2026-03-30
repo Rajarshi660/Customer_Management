@@ -12,8 +12,7 @@ package com.mycompany.customermanagement;
 
 import java.util.Date;
 
-public class Main{
-
+public class Main {
     public static void main(String[] args) {
 
         // Create items
@@ -30,7 +29,7 @@ public class Main{
         order.addLineItem(od2);
 
         // Create customer and link order
-        Customer customer = new Customer("Ravi Kumar", "Chennai, Tamil Nadu");
+        Customer customer = new Customer("Rajarshi Chakraborty", "Kolkata");
         customer.addOrder(order);
 
         // Payment via cash

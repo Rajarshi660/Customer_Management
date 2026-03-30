@@ -1,16 +1,6 @@
-
-
-
-
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author chakr
  */
 package com.mycompany.customermanagement;
 
@@ -37,7 +27,7 @@ public class Item {
         return pricePerUnit * qty;
     }
 
-    public double getTax()  { return taxRate; }
+    public double getTax() { return taxRate; }
 
     public boolean inStock() { return stockQuantity > 0; }
 
